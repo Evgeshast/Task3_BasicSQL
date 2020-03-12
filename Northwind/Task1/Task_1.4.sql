@@ -1,0 +1,1 @@
+select * from Products where ProductName like '%Cho_olade%'
