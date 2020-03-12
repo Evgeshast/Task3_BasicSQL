@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="54d5df16-365c-45dc-832c-10b2e4bfdba0" ChangeDateTime="03/11/2020 16:15:21">
+    <Property Name="ElementName" Value="[dbo].[CreditCard].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCard]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreditCardId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="beae1774-b185-4e0e-b936-dab45ccb408b" ChangeDateTime="03/11/2020 16:19:16">
+    <Property Name="ElementName" Value="[dbo].[FK_CreditCard_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[CreditCard]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_CreditCard_Employees]" />
+  </Operation>
+</Operations>
